@@ -19,6 +19,14 @@ public class School {
     public School() {
     }
 
+    public List<Wizard> getWizards() {
+        return wizards;
+    }
+
+    public void setWizards(List<Wizard> wizards) {
+        this.wizards = wizards;
+    }
+
     public Long getId() {
         return id;
     }
@@ -51,11 +59,4 @@ public class School {
         this.country = country;
     }
 
-    public List<Wizard> getWizards() {
-        return wizards;
-    }
-
-    public void setWizards(List<Wizard> wizards) {
-        this.wizards = wizards;
-    }
 }

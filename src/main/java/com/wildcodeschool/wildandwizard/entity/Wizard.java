@@ -23,6 +23,14 @@ public class Wizard {
     public Wizard() {
     }
 
+    public School getSchool() {
+        return school;
+    }
+
+    public void setSchool(School school) {
+        this.school = school;
+    }
+
     public Long getId() {
         return id;
     }
@@ -79,11 +87,4 @@ public class Wizard {
         this.muggle = muggle;
     }
 
-    public School getSchool() {
-        return school;
-    }
-
-    public void setSchool(School school) {
-        this.school = school;
-    }
 }
